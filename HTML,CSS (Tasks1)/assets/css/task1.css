@@ -1,0 +1,96 @@
+body{
+    background-color: yellowgreen;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.card .left-side{
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 195px;
+}
+
+.card .left-side .level{
+    display: flex;
+    justify-content: center;
+}
+
+.card .left-side .level p{
+    width: 100px;
+    height: 15px;
+    color: white;
+    background-color: rgb(165,15,15);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.card .left-side .image{
+    display: flex;
+    justify-content: center;
+}
+
+.card .left-side .image img{
+    width: 130px;
+    height: 140px;
+    background-color: powderblue;
+    border: 1px solid transparent;
+    border-radius: 65px;
+}
+
+.card .left-side .point{
+    display: flex;
+    justify-content: center;
+}
+
+.card .left-side .point p{
+    width: 100px;
+    height: 15px;
+    color: white;
+    background-color: rgb(165,15,15);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    padding: 6px;
+}
+
+.card .right-side{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 420px;
+}
+
+.card .right-side .title{
+    display: flex;
+    justify-content: center;
+}
+
+.card .right-side .paragraph{
+    display: flex;
+    justify-content: center;
+}
+
+.card .right-side .paragraph p{
+    padding-left: 27px;
+}
+
+.card .right-side .mouse-over{
+    display: flex;
+    justify-content: right;
+}
+
+.card .right-side .mouse-over p{
+    padding-right: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,173 @@
+body{
+    background-color: whitesmoke;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+}
+
+.card .profile{
+        background-color: rgb(0,84,143);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 30px;
+}
+
+.card .profile .image{
+    display: flex;
+    justify-content: center;
+}
+
+.card .profile .image img{
+    width: 191px;
+    height: 191px;
+    border-radius: 5px;
+}
+
+.card .profile .heading{
+    display: flex;
+    justify-content: center;
+}
+
+.card .profile .heading h2{
+    color: white;
+}
+
+.card .profile .heading p{
+    color: white;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.card .profile .paragraph{
+    display: flex;
+    justify-content: center;
+}
+
+.card .profile .paragraph p{
+    color: white;
+    margin-top: -10px;
+}
+
+.card .content{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 10px;
+    padding-left: 48px;
+    padding-right: 50px;
+}
+
+.card .content .about-me{
+    display: flex;
+    justify-content: center;
+}
+
+.card .content .about-me h1{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.card .content .about-me .M{
+    padding-left: 15px;
+}
+
+.card .content hr{
+    border-color: white;
+    opacity: 0.8;
+    margin-top: -10px;
+}
+
+.card .content .info{
+    display: flex;
+}
+
+.card .content .info .email{
+    font-family: sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.card .content .info .email h4{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.card .content .info .phone{
+    font-family: sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-left: 35px;
+}
+
+.card .content .info .phone h4{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.card .content .icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card .content .icon .facebook{
+    width: 60px;
+    height: 59px;
+    background-color: rgb(0,78,140);
+    border-radius: 5px;
+}
+
+.card .content .icon .facebook img{
+    padding-top: 13px;
+    padding-left: 14px;
+}
+
+.card .content .icon .twitter{
+    width: 60px;
+    height: 59px;
+    background-color: rgb(0,78,140);
+    border-radius: 5px;
+}
+
+.card .content .icon .twitter img{
+    padding-top: 13px;
+    padding-left: 14px;
+}
+
+.card .content .icon .instagram{
+    width: 60px;
+    height: 59px;
+    background-color: rgb(0,78,140);
+    border-radius: 5px;
+}
+
+.card .content .icon .instagram img{
+    padding-top: 13px;
+    padding-left: 14px;
+    width: 35px;
+    height: 32px;
+}
+
+.card .content .icon .youtube{
+    width: 60px;
+    height: 59px;
+    background-color: rgb(0,78,140);
+    border-radius: 5px;
+}
+
+.card .content .icon .youtube img{
+    padding-top: 13px;
+    padding-left: 14px;
+    width: 35px;
+    height: 32px;
+}
+
+
+
+
+
+
+
